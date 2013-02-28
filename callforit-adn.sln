@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "callforit-adn", "callforit-adn\callforit-adn.csproj", "{33F26663-D620-4EC7-941F-F6F12133278B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "callforit-adn.Tests", "callforit-adn.Tests\callforit-adn.Tests.csproj", "{EDDCF7D5-2E89-4ADA-B620-B38EBDAC8585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33F26663-D620-4EC7-941F-F6F12133278B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F26663-D620-4EC7-941F-F6F12133278B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F26663-D620-4EC7-941F-F6F12133278B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F26663-D620-4EC7-941F-F6F12133278B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDCF7D5-2E89-4ADA-B620-B38EBDAC8585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDCF7D5-2E89-4ADA-B620-B38EBDAC8585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDCF7D5-2E89-4ADA-B620-B38EBDAC8585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDCF7D5-2E89-4ADA-B620-B38EBDAC8585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
