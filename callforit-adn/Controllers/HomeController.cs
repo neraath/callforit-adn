@@ -20,7 +20,7 @@ namespace callforit_adn.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-            //ViewBag.UpcomingConferences = eventRepository.Events;
+            ViewBag.UpcomingConferences = eventRepository.Events;
             return View();
         }
 

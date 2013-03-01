@@ -28,7 +28,6 @@ namespace callforit_adn.Tests
             
         }
 
-        /*
         [TestMethod]
         public void HomeControllerLoadsEmptyCollectionOfEventsWhenNoneAvailable()
         {
@@ -51,8 +50,7 @@ namespace callforit_adn.Tests
 
             var result = (ViewResult) controller.Index();
             Assert.IsNotNull(result.ViewBag.UpcomingConferences, "UpcomingConferences is null.");
-            Assert.AreEqual(events.Count, result.ViewBag.UpcomingConferences, "Expected upcoming conferences to have " + events.Count + " events.");
+            Assert.AreEqual(events.Count, result.ViewBag.UpcomingConferences.Count, "Expected upcoming conferences to have " + events.Count + " events.");
         }
-        */
     }
 }
