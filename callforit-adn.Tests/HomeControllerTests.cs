@@ -52,5 +52,11 @@ namespace callforit_adn.Tests
             Assert.IsNotNull(result.ViewBag.UpcomingConferences, "UpcomingConferences is null.");
             Assert.AreEqual(events.Count, result.ViewBag.UpcomingConferences.Count, "Expected upcoming conferences to have " + events.Count + " events.");
         }
+
+        [TestMethod]
+        public void FailedTest()
+        {
+            Assert.Fail("This should never be deployed.");
+        }
     }
 }
