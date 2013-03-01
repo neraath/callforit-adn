@@ -23,6 +23,13 @@ namespace callforit_adn.Tests
         }
 
         [TestMethod]
+        public void DummyTest()
+        {
+            
+        }
+
+        /*
+        [TestMethod]
         public void HomeControllerLoadsEmptyCollectionOfEventsWhenNoneAvailable()
         {
             var events = new List<Event>();
@@ -32,5 +39,20 @@ namespace callforit_adn.Tests
             Assert.IsNotNull(result.ViewBag.UpcomingConferences, "UpcomingConferences is null.");
             Assert.AreEqual(0, result.ViewBag.UpcomingConferences.Count, "Expected no upcoming conferences.");
         }
+
+        [TestMethod]
+        public void HomeControllerLoadsFullCollectionOfEventsWhenSomeAvailable()
+        {
+            var events = new List<Event>()
+                {
+                    new Event() {Name = "AgileDotNet - Dallas - 2013", DateStart = new DateTime(2013, 03, 01)}
+                };
+            eventRepositoryMock.SetupGet(x => x.Events).Returns(events);
+
+            var result = (ViewResult) controller.Index();
+            Assert.IsNotNull(result.ViewBag.UpcomingConferences, "UpcomingConferences is null.");
+            Assert.AreEqual(events.Count, result.ViewBag.UpcomingConferences, "Expected upcoming conferences to have " + events.Count + " events.");
+        }
+        */
     }
 }

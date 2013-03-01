@@ -7,7 +7,7 @@ namespace callforit_adn.Controllers
     {
         private IEventRepository eventRepository;
 
-        public HomeController()
+        public HomeController() : this(new EventRepository(new EventContext()))
         {
         }
 
@@ -20,7 +20,7 @@ namespace callforit_adn.Controllers
         // GET: /Home/
         public ActionResult Index()
         {
-            ViewBag.UpcomingConferences = eventRepository.Events;
+            //ViewBag.UpcomingConferences = eventRepository.Events;
             return View();
         }
 
